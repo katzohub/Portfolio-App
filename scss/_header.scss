@@ -1,0 +1,194 @@
+nav{
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    color: $color-white;
+    font-size: 30px;
+    font-weight: 600;
+    transition: .3s ease all;
+    z-index: 9999;
+    max-width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    order: 1;
+    justify-content: space-between;
+    margin-right: 30px;
+    font-size: clamp(1.7rem,1.5rem,1rem);
+}
+
+.my{
+    padding-right: 20px !important;
+    padding-left: 20px;
+}
+
+.flag-container{
+    position: fixed;
+    left: 140px;
+    display: flex;
+}
+.svk,.en{
+    width: 40px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.bx-chevron-right{
+    cursor: pointer;
+    
+}
+.bx-chevron-left{
+    cursor: pointer;
+    display: none;
+}
+
+
+nav ul li {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.container-navigation{
+    display: none;
+   
+}
+.menu,
+.menu-close{
+    display: none;
+    margin-right: 25px;
+}
+.menu,
+.menu-close{
+   cursor: pointer;
+   background: transparent;
+}
+.menu i,
+.menu-close i{
+    color: $color-white;
+    font-size: 2.8rem;
+    font-weight: 500;
+    transition: .3s ease all;
+}
+
+.menu i:hover,
+.menu i:active,
+.menu-close i:hover,
+.menu-close i:active{
+    @include neon_effect_hover;
+
+}
+
+nav ul li:hover {
+    @include neon_effect_hover;
+    position: relative;
+    top: -2px;
+}
+nav ul li a{ 
+    color: $color-white;
+    text-decoration: none;
+}
+.container-one h1{
+    position: absolute;
+    margin-top: 75px;
+    font-size: 5rem;
+    color: $color-white; 
+}
+.header-contianer{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    position: relative;
+    top: 50px;
+    color: $color-white;
+}
+
+.header-contianer .text{
+    width: 50%;
+}
+.header-contianer h2{
+    font-size: 3rem;
+    padding-bottom: 25px;
+}
+.header-contianer .primary-text{
+    font-size: 2rem;
+    padding-bottom: 25px;
+}
+.header-contianer .fast-text{
+    font-size: 1rem;
+    padding-bottom: 25px;
+}
+.header-contianer ul {
+    width: 350px;
+    padding-bottom: 25px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-contianer ul li{
+    width: 75px;
+    height: 75px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include neon_effect_blue;
+}
+.header-contianer ul li a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: $color-white;
+   
+}
+.header-contianer ul li:hover{
+    @include neon_effect_hover;
+    position: relative;
+    top: -2px;
+}
+
+.header-contianer .cv{
+    text-align: center;
+    padding: 15px 40px;
+    margin: 10px;
+    margin-bottom: 35px;
+    color:$color-white;
+    @include neon_effect_blue
+}
+.cv-container{
+display: flex;
+
+
+}
+.cv-container button{
+    width: 250px;
+}
+
+
+.header-contianer .cv:hover{
+    @include neon_effect_hover;
+    position: relative;
+    top: -2px;
+}
+.header-contianer .cv a{
+    text-decoration: none;
+    color: $color-white;
+}
+
+
+.header-contianer img {
+    @include neon_effect_blue;
+}
+
+.opening-text{
+    display: none;
+}

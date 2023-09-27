@@ -1,0 +1,97 @@
+.container-six h1{
+    position: absolute;
+    top: 0;
+    padding-top: 75px;
+    color: $color-white;
+    font-size: 3.5rem;
+}
+.container-six .container{
+    width: 750px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+::placeholder {
+    color: $color-white;
+    opacity: .5;
+  }
+input[type=text]{
+    width: 350px;
+    height: 75px;
+   border-radius: 10px;
+   font-size: 2rem;
+   text-align: center;
+   @include neon_effect_blue;
+   color: $color-white;
+
+}
+input[type=e-mail]{
+    width: 350px;
+    height: 75px;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: center;
+    @include neon_effect_blue;
+    color: $color-white;
+
+ }
+ input[type=tel]{
+    width: 350px;
+    height: 75px;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: center;
+    @include neon_effect_blue;
+    color: $color-white;
+
+ }
+ input[type=submit]{
+    color: $color-white;
+    width: 350px;
+    height: 75px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: center;
+    color: $color-white;
+    @include neon_effect_blue
+ }
+ input[type=text]:hover,
+ input[type=text]:active,
+ input[type=e-mail]:hover,
+ input[type=e-mail]:active,
+ input[type=tel]:hover,
+ input[type=tel]:active{
+     @include neon_effect_green;
+     cursor: auto;
+ }
+ input[type=submit]:hover,
+ input[type=submit]:active{
+    @include neon_effect_green;
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+ }
+form input{
+    margin: 10px;
+}
+
+
+form textarea{
+   width: 95%;
+   height: 500px;
+   font-size: 1.7rem;
+   margin: 10px;
+   padding: 4px 0 0 6px;
+   color: $color-white;
+   @include neon_effect_blue;
+
+}
+form textarea:hover,
+form textarea:active{
+    @include neon_effect_green;
+    transition: .3s ease all;
+ }

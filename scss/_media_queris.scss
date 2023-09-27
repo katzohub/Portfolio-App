@@ -1,0 +1,392 @@
+@media screen and (max-width: 1635px) {
+    .container-five{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .container-skill-one .skill-html{
+        width: 600px;
+    }
+
+}
+@media screen and (max-width: 1375px) {
+    .container-four{
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+    .certificat{
+        width: 280px;
+        height: 380px;
+        padding: 25px;
+    }
+}
+@media screen and (max-width: 1245px) {
+
+    .header-contianer .text {
+        width: 350px;
+    }
+    .header-contianer img {
+        width: 300px;
+    }
+    #closeLightbox {
+        right: 150px;
+    }
+}
+@media screen and (min-width: 956px) {
+    nav ul{
+        display: flex !important;
+    }
+}
+@media screen and (max-width: 955px) {
+
+    .container-three h1{
+        top: 0px;
+    }
+
+    nav{
+        max-width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 10px;   
+        transition: all .3s linear;
+    }
+    nav ul{
+        display: none;
+        order: 0;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 0px;  
+        padding-top: 50px;
+    }
+    nav ul li{
+        padding-bottom: 12px;
+    }
+
+    .my{
+        position: relative;
+        top: 4px;
+    }
+    .flag-container{
+        position: absolute;
+        top: 15px;
+    }
+    .cv-container button:nth-child(2){
+        margin-top: 0px;
+    }
+
+        .container-navigation{
+            display: block;
+        }
+        .menu {
+            display: block;
+        }
+
+
+
+    .header-contianer{
+    width: 100vh;
+    margin-top: 75px;
+    padding: 0;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .header-contianer img{
+        display: none;
+    }
+    .cv-container{
+        justify-content: center;
+    }
+
+    .contianer-background{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100% !important;
+    }
+    .opening-text{
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 100px;
+        @include neon_effect_blue;
+        
+    }
+
+    .fade {
+        animation: fade 1s;
+    }
+    
+    @keyframes fade {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+
+
+
+    .container-two{
+        padding-bottom: 100px;
+        
+    }
+    .container-three{
+        padding-top: 250px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .project img{
+        max-width: 100%;
+        height: 250px;
+        padding: 15px;
+    }
+    .project{
+        margin: 20px;
+        width: 350px;
+        height: 250px;
+    }
+
+    .project a{
+        font-size: 7.5rem;
+    }
+    #closeLightbox {
+        top: 45px;
+        right: 10px;
+    }
+    .container-five{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .container-four{
+        padding-left: 0%;
+        padding-right: 0%;
+        max-width: 100vw;
+    }
+    .menu i:hover,
+    .menu-close i:hover{
+    @include neon_effect_hover_disabled;
+    cursor:pointer;
+}
+    .header-contianer ul li:hover{
+        @include neon_effect_hover_disabled
+    }
+    .header-contianer ul li:active{
+        @include neon_effect_hover_disabled
+    }
+    .header-contianer .cv:hover{
+        @include neon_effect_hover_disabled;
+    }
+    .header-contianer .cv:active{
+        @include neon_effect_hover;
+    }
+    .project a:hover{
+        color: rgba(240, 248, 255,.2);
+        @include neon_effect_disabled
+    }
+
+    .project a:active{
+    color: $color-black;  
+    @include neon_effect_green;
+    }
+    input[type=submit]:hover{
+       @include neon_effect_disabled;
+       @include neon_effect_blue;
+       cursor: pointer;
+    }
+
+
+}
+@media screen and (max-width: 775px) {
+    .container-two .about-img{
+        margin-top: 0px
+    }
+    .container-two p{
+        margin-top: 0px
+    }
+
+
+
+    .header-contianer{
+        top: 0px;
+    }
+    /////////////About me
+    .container-two{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container-two .about-img{
+        height: 350px;
+        margin-top: 170px;
+    }
+    .container-two p{
+        margin-top: 50px;
+        width: 75%;
+    }
+    /////////////Skills
+    .container-five{
+        padding-left: 00%;
+        padding-right: 00%;
+        
+    }
+
+    .container-skill-one{
+        display: grid;
+        overflow-x:scroll;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    }
+    .main{
+        display: flex;
+    }
+    .main > * {
+        flex-shrink: 0;
+        width: 100%;
+    }
+    
+ 
+    .container-skill-one .skill-html{
+        width: 300px;
+        height: auto;
+        margin: 20px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        @include neon_effect_blue;
+        overflow: hidden;
+    }
+    h3{
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+        position: relative;
+        top: -10px;
+        left: 0px;
+        color: $color-white;
+        border: 2px solid $color-neon;
+        border-top: none;
+        border-radius: 0px 0px 10px 10px;
+        padding: 10px;
+        text-align: center;
+        transform: rotate(0deg);
+        width: auto;
+    }
+
+
+
+    .container-skill-one .skill-html p{
+        width: 50%;
+        height: 212px;
+        display: block;
+        color: $color-white;
+        margin-left: 0px;
+    }
+    
+    .gallery-image{
+        width: 250px;
+        height: 350px;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .section-one,
+    .section-two,
+    .section-three{
+        width: auto;
+        display: inline-block;
+        overflow-x: scroll;
+        white-space: nowrap; 
+    }
+
+    /////////////Contact
+
+    .container-six{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    input[type=text]{
+        width: 400px;
+        height: 50px;
+
+    }
+    input[type=e-mail]{
+        width: 400px;
+        height: 50px;
+
+     }
+     input[type=tel]{
+        width: 400px;
+        height: 50px;
+     }
+     input[type=submit]{
+        width: 400px;
+        height: 50px;
+     }
+      form textarea{
+         width: 400px;
+         height: 350px;
+      }
+
+
+}
+@media screen and (max-width: 450px) {
+    .whell{
+        padding: 30px 100px;
+    }
+    .container-two p{
+        @include neon_effect_green;
+        padding: 25px;
+    }
+    
+    .container-two .about-img{
+        width: 250px;
+    }
+
+
+    .header-contianer h2{
+        font-size: 2rem;
+        
+    }
+    .header-contianer .primary-text{
+        font-size: 1.65rem;
+       
+    }
+    .header-contianer .fast-text{
+        font-size: 1rem;
+        
+    }
+
+
+
+
+    .container-six{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    input[type=text]{
+        width: 350px;
+        height: 50px;
+
+    }
+    input[type=e-mail]{
+        width: 350px;
+        height: 50px;
+
+     }
+     input[type=tel]{
+        width: 350px;
+        height: 50px;
+     }
+     input[type=submit]{
+        width: 350px;
+        height: 50px;
+     }
+      form textarea{
+         width: 350px;
+         height: 250px;
+      }
+
+}

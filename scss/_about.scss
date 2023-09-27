@@ -1,0 +1,25 @@
+
+.container-two h1{
+    position: absolute;
+    top: 0;
+    padding-top: 75px;
+    color: $color-white;
+    font-size: 3.5rem;
+}
+.container-two .about-img{
+    height: 450px;
+    @include neon_effect_blue;
+    margin-top: 175px
+
+}
+.container-two p{
+    @include neon_effect_green;
+    font-size: 1.2rem;
+    color: $color-white;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    padding: 50px;
+    width: 50%;
+    margin-top: 175px
+}
