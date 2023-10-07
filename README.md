@@ -17,6 +17,6 @@ Thank you.
 ### Zdravím všetkých
 
 Rozhodol som sa vytvoriť portfólio, aby som sa dozvedel na čom som a ukázal ešte čo viem. Ale hlavne aby som sa dozvedel čo neviem a na čom mam pracovať a pokračovať ďalej.   
-Pozri moje [Porfólio](https://katzohub.github.io/Portfolio-App/index.html)
+Pozri moje [Porfólio](https://katzohub.github.io/Portfolio-App/)
 
 
